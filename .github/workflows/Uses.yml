@@ -1,8 +1,7 @@
 name: Uses Examples
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   run-python-script:
